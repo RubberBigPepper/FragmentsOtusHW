@@ -14,11 +14,6 @@ import otus.gpb.homework.fragments.ColorGenerator
 
 private const val COLOR = "color"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [FragmentAA.newInstance] factory method to
- * create an instance of this fragment.
- */
 class FragmentAA : Fragment() {
     private var color: Int? = null
 

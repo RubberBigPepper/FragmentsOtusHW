@@ -17,5 +17,11 @@ class ActivityB : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        if (savedInstanceState == null) {
+            val fragmentB = FragmentB()
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, fragmentB, "fragmentB")
+                .commit()
+        }
     }
 }

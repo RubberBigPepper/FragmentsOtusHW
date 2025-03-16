@@ -62,7 +62,7 @@ class FragmentA : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        setFragmentResultListener(SHOW_FRAGMENT_AB) { _, _ ->
+        childFragmentManager.setFragmentResultListener(SHOW_FRAGMENT_AB, this) { _, _ ->
             val color = ColorGenerator.generateColor()
             val fragmentAB = FragmentAB.newInstance(color)
             childFragmentManager.beginTransaction()

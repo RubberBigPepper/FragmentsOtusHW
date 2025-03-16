@@ -2,8 +2,10 @@
     <string name="app_name">Fragments</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="open_fragment_aa">Open FragmentAA</string>
+    <string name="open_fragment_aa">Open Fragment AA</string>
     <string name="open_activity_a">Open Activity A</string>
-    <string name="open_activity_b">OpenActivityB</string>
-    <string name="open_fragment_ab">Open FragmentAB</string>
+    <string name="open_activity_b">Open Activity B</string>
+    <string name="open_fragment_ab">Open Fragment AB</string>
+    <string name="open_fragment_bb">Open fragment BB</string>
+    <string name="send_color">Send color</string>
 </resources>
