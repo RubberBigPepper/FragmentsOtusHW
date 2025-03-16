@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_fragment_aa">Open FragmentAA</string>
+    <string name="open_activity_a">Open Activity A</string>
+    <string name="open_activity_b">OpenActivityB</string>
+    <string name="open_fragment_ab">Open FragmentAB</string>
 </resources>
